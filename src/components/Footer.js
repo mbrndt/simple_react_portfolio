@@ -1,7 +1,19 @@
+import { Facebook, Instagram, LinkedIn, Twitter } from "@material-ui/icons";
 import React from "react";
+import "../styles/Footer.css";
 
 function Footer() {
-  return <div>Footer</div>;
+  return (
+    <div className="footer">
+      <div className="socialMedia">
+        <Instagram />
+        <Twitter />
+        <Facebook />
+        <LinkedIn />
+      </div>
+      <p> &copy; 2022 marebot.com</p>
+    </div>
+  );
 }
 
 export default Footer;
