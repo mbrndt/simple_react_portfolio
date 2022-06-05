@@ -6,12 +6,18 @@ const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, my name is Mareike</h2>
-        <div className="prompt">
-          <p> A software dev with a passion for web design</p>
-          <LinkedIn />
-          <Email />
-          <GitHub />
+        <div id="intro">
+          <h2> Hi, Moin and 안녕!</h2>
+          <div className="prompt">
+            <p>
+              {" "}
+              my name is <span className="word">mareike</span>, a software dev
+              with a passion for web design
+            </p>
+            <LinkedIn />
+            <Email />
+            <GitHub />
+          </div>
         </div>
       </div>
       <div className="skills">

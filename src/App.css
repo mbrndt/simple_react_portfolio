@@ -3,8 +3,9 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f0f0f0;
+  font-family: "Emblema One", cursive;
+  color: #8b96d1;
+  /* background-color: #fff6f9; */
 }
 
 body {
