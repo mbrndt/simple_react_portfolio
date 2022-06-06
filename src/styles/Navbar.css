@@ -9,15 +9,15 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   color: white;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 20px;
-  font-size: 25px;
+  margin: 0 10px;
+  font-size: 1.5rem;
 }
 
 .toggleButton {

@@ -13,16 +13,37 @@
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  width: 25rem;
   border-radius: 10px;
 }
 
 .project p {
-  font-size: 40px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 2rem;
   color: #3e497a;
 }
 
-.project svg {
-  font-size: 60px;
-  color: #3e497a;
+.project .longText {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .project {
+    width: 100%;
+  }
+
+  .project h1,
+  p {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .project p {
+    font-size: 1rem;
+  }
+
+  .project img {
+    width: 20rem;
+  }
 }

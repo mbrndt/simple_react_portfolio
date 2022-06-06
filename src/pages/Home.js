@@ -7,16 +7,14 @@ const Home = () => {
     <div className="home">
       <div className="about">
         <div id="intro">
-          <h2> Hi, Moin and 안녕!</h2>
+          <h2> Hi, my name is Mareike</h2>
           <div className="prompt">
-            <p>
-              {" "}
-              my name is <span className="word">mareike</span>, a software dev
-              with a passion for web design
-            </p>
-            <LinkedIn />
-            <Email />
-            <GitHub />
+            <p>i'm a software dev with a passion for web design</p>
+            <div className="svg">
+              <LinkedIn />
+              <Email />
+              <GitHub />
+            </div>
           </div>
         </div>
       </div>

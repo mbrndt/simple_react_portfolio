@@ -17,16 +17,21 @@
   /* color: #f6c5af; */
   color: #8b96d1;
   margin: 20px;
-  font-size: 70px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
 .footer p {
   color: #f6c5af;
+  background-color: white;
+  border-radius: 30%;
 }
 
 @media only screen and (max-width: 600px) {
+  .footer p {
+    font-size: 1rem;
+  }
   .footer svg {
-    font-size: 50px;
+    font-size: 1rem;
   }
 }
