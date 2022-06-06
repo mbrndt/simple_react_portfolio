@@ -47,3 +47,24 @@
     width: 20rem;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .project {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .project h1,
+  p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .project p {
+    font-size: 1rem;
+  }
+
+  .project img {
+    width: 15rem;
+  }
+}
