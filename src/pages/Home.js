@@ -9,7 +9,7 @@ const Home = () => {
         <div id="intro">
           <h2> Hi, my name is Mareike</h2>
           <div className="prompt">
-            <p>i'm a software dev with a passion for web design</p>
+            <p>and i am the junior dev you have been looking for.</p>
             <div className="svg">
               <LinkedIn />
               <Email />
@@ -23,19 +23,15 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>
-              ReactJs, HTML, CSS, Javascript, JQuery, Bootstrap, Material-UI,
-            </span>
+            <span>ReactJs, HTML, CSS, Tailwind</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>
-              NodeJs, Express, MongoDB, Mongoose, Sequelize, Passport,
-            </span>
+            <span>NodeJs, Express, MongoDB, Mongoose</span>
           </li>
           <li className="item">
             <h2> Languages</h2>
-            <span>Javascript, HTML, CSS, SQL, Python, Java, C++, C#,</span>
+            <span>Javascript, Korean, German, English</span>
           </li>
         </ol>
       </div>

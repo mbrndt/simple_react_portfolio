@@ -12,51 +12,37 @@ const Experience = () => {
       <VerticalTimeline lineColor="#8b96d1">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010-2014"
+          date="2019-2021"
           iconStyle={{ background: "#FFAFCC", color: "#fff" }}
           icon={<School />}
         >
           <h3 className="vertical-timeline-element-title">
             {" "}
-            My High School, Place, Country
+            CBM Project Management GmbH Hamburg
           </h3>
-          <p>High School Diploma</p>
+          <p>Computer Scientist</p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010-2014"
-          iconStyle={{ background: "#FFAFCC", color: "#fff" }}
-          icon={<School />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            {" "}
-            My High School, Place, Country
-          </h3>
-          <p>High School Diploma</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2010-2014"
+          date="2020 - 2021"
           iconStyle={{ background: "#f3c44e", color: "#fff" }}
           icon={<Work />}
         >
           <h3 className="vertical-timeline-element-title">
             {" "}
-            My High School, Place, Country
+            Fortis IT GmbH Hamburg
           </h3>
-          <p>High School Diploma</p>
+          <p>Internship Software Developer</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010-2014"
+          date="soon"
           iconStyle={{ background: "#f3c44e", color: "#fff" }}
           icon={<Work />}
         >
-          <h3 className="vertical-timeline-element-title">
-            {" "}
-            My High School, Place, Country
-          </h3>
-          <p>High School Diploma</p>
+          <h3 className="vertical-timeline-element-title"> Your Company</h3>
+          <p>best worker who is passionate about learning</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
